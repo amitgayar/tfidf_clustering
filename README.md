@@ -1,4 +1,4 @@
-#tfidf+clustering\n
+#tfidf+clustering
 tfidf + clustering
 
 Installation guide:
