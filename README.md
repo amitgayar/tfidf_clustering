@@ -4,13 +4,13 @@ tfidf + clustering
 Installation guide:
 
 	1. make virtual env in "tfidf"(the project directory) in python3 
-		```cd tfidf
-		virtualenv -p python3 venv_tfidf```
+		cd tfidf
+		virtualenv -p python3 venv_tfidf
 	2. install requirements for the package and make sure pip is of python3 by "pip -V" command
-	```     pip install --upgrade pip
+		pip install --upgrade pip
 		pip install -r requirements.txt
 		python -m spacy download en-core-web-md
-	```	
+		
 Individual scripts:
 
 	1. "get_news_links.py" loads the various links based on input keywords
