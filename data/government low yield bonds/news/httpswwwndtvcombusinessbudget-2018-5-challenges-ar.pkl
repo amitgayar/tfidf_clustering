@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+VGet Breaking news, live coverage, and Latest News from India and around the world on NDTV.com. Catch all the Live TV action on NDTV 24x7 and NDTV India. Like us on Facebook or follow us on Twitter and Instagram for latest news and live news updates.
+p2
+sS'meta_description'
+p3
+S'Rising crude oil prices are putting upward pressure on inflation while the government has limited room for a stimulus, say experts.'
+p4
+sS'datetime'
+p5
+V31-Jan-2018
+p6
+sS'link'
+p7
+Vhttps://www.ndtv.com/business/budget-2018-5-challenges-arun-jaitley-faces-in-governments-last-full-year-budget-1806932
+p8
+sS'title'
+p9
+V5 Challenges Arun Jaitley Faces In Government's Last Full-Year Budget
+p10
+s.

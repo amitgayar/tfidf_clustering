@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+VU.S. government debt yields fell on Tuesday after the U.S. government said the prices consumers pay for goods and services ticked higher last month.\u000a\u000aAt around 2:43 p.m. ET, the yield on the benchmark 10-year Treasury note, which moves inversely to price, was lower at around 2.603 percent, near a 14-month closing low. The yield on the 30-year Treasury bond was also lower at 2.988 percent.\u000a\u000aYields came off their highs after the Labor Department reported that the U.S. Consumer Price Index rose 0.2 percent in February, as expected.\u000a\u000aThe key measure of underlying inflation drifted lower amid falling prices for autos and prescription drugs. The so-called core consumer price index, which excludes food and energy, rose 0.1 percent from the prior month, falling short of economists' expectations.\u000a\u000aThough the headline CPI print is the first increase in four month, the year-over-year change of 1.5 percent missed expectations and represents the smallest increase since 2016.\u000a\u000aSovereign debt was lower across the board in Europe with investor attention firmly focused on the Brexit deal in the U.K. British Members of Parliament (MPs) will vote Tuesday evening on whether to accept or reject Prime Minister Theresa May's deal ahead of the scheduled March 29 departure from the EU.\u000a\u000aEquity markets got a slight boost after May got legally binding assurances from the EU over the most contentious part of the deal, the Irish backstop.\u000a\u000aThe Treasury Department auctioned $24 billion in 10-year notes at a high yield of 2.615 percent. The bid-to-cover ratio, an indicator of demand, was 2.59. Indirect bidders, which include major central banks, were awarded 69.4 percent. Direct bidders, which includes domestic money managers, bought 9.1 percent.
+p2
+sS'meta_description'
+p3
+S'Government debt yields held steady on Tuesday after the U.S. government said the prices consumers pay drifted slightly higher last month.'
+p4
+sS'datetime'
+p5
+V12-Mar-2019
+p6
+sS'link'
+p7
+Vhttps://www.cnbc.com/2019/03/12/bonds-treasury-yields-move-higher-amid-optimism-over-brexit-deal.html
+p8
+sS'title'
+p9
+VUS Treasury yields fall after slight rise in inflation, strong auction
+p10
+s.

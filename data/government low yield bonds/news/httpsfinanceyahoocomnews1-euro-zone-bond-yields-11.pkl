@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+V* But gains capped by politics in UK, Italy and Spain\u000a\u000aLONDON, July 23 (Reuters) - Euro zone government bond yields edged lower on Tuesday and German yields briefly hit two-week lows on concerns over economic growth in the bloc and beyond, and as a raft of political events unfolded in Europe.\u000a\u000aWhile Italian 10-year yields slipped the most, by around seven basis points, markets focused on the fallout of Boris Johnson taking over as UK Prime Minister with the agenda of taking the UK out of the European Union by Oct. 31.\u000a\u000aBritish 10-year yields slipped more than two basis points, as Johnson's election is seen increasing chances of a "hard" Brexit that will damage the British as well as EU economy.\u000a\u000aEconomic risks were underlined as the International Monetary Fund cut global growth forecasts for this year and next, citing the trade war and Brexit.\u000a\u000aIts data also showed global trade expanded at the slowest pace since 2012 in the first quarter of this year.\u000a\u000aWhile it kept euro zone growth forecasts steady for 2019 and upped them for next year, it trimmed its estimate for Germany's growth this year by 0.1% and Italy's 2020 expansion by 0.1%.\u000a\u000aEuropean bond yields had risen early in the day after the U.S. Congress and president agreed to extend a contentious debt ceiling.\u000a\u000aBut with governments in the UK, Spain and Italy all in various stages of flux, the move was limited, keeping yields near recent record lows.\u000a\u000aGermany's 10-year bond yield, the benchmark for the euro zone, slipped as low as minus 0.359%, not far off record lows posted at the start of July. It closed Monday at minus 0.347%.\u000a\u000aOther euro zone bond yields also slipped by around one basis point after rising by a similar amount at the start of trade.\u000a\u000aInvestors will likely continue to focus on politics in Italy and Spain.\u000a\u000aThe fate of Italy's coalition government is uncertain, with rumours swirling about a planned meeting between the leaders of the two squabbling parties who make up the coalition, the 5-Star Movement's Luigi Di Maio and League's Matteo Salvini.\u000a\u000aItalian 10-year yields touched a session low around 1.59% after recovering from three-year lows touched last Thursday. Many investors would view the collapse of the government as positive, especially if it were replaced by the League, which is seen as more pro-business.\u000a\u000a"It was appropriate to consolidate a little around these levels earlier this week, and some attention is also being paid to political noise," said John Taylor, a fixed income portfolio manager at AllianceBernstein.\u000a\u000aIn a reference to the ECB's bond-buying programme, which many expect will be resumed, he added however: "Given the view on QE, Italian yields should continue to grind tighter later this year, so I'm not surprised some buyers came in again."\u000a\u000aSpanish yields inched down around one basis point to around 0.396% after Socialist Pedro Sanchez lost his first bid to be confirmed Prime Minister.\u000a\u000aThe next round is due on Thursday. The far-left party Podemos is demanding a bigger role in government in return for its backing. (Reporting by Abhinav Ramnarayan; Editing by Larry King, Kirsten Donovan and Jan Harvey)
+p2
+sS'meta_description'
+p3
+S'Euro zone government bond yields edged lower on Tuesday and German yields briefly hit two-week lows on concerns over economic growth in the bloc and beyond, and as a raft of political events unfolded in Europe.  While Italian 10-year yields slipped the most, by around seven basis points, markets focused'
+p4
+sS'datetime'
+p5
+V21 hours ago
+p6
+sS'link'
+p7
+Vhttps://finance.yahoo.com/news/1-euro-zone-bond-yields-113058409.html
+p8
+sS'title'
+p9
+VUPDATE 2-Euro zone bond yields inch lower in day of political news
+p10
+s.

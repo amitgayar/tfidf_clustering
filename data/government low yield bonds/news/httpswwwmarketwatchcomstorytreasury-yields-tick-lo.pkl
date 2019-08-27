@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+VTreasury prices jumped on Monday, pushing yields lower, ahead of a gathering of global central bankers and other monetary policy experts at the Kansas City Federal Reserve\u2019s annual symposium in Jackson Hole, Wyo., later in the week.\u000a\u000aThe 10-year Treasury note yield TMUBMUSD10Y, -1.05% slid 5.1 basis points to 2.823%, its lowest since May 29. The 2-year note yield TMUBMUSD02Y, -1.19% fell 2.9 basis points to 2.591%, while the 30-year bond rate TMUBMUSD30Y, -1.01% declined 4.5 basis points to 2.983%, its lowest since July 19.\u000a\u000aThe slide in long-dated bond yields helped to narrow the spread between the 2-year note and the 10-year note to 23.2 basis points, or 0.23 percentage point. A narrowing spread between yields for short-dated bonds and their long-dated peers tends to signal investors\u2019 concerns about the economic outlook.\u000a\u000aBond prices move in the opposite direction of yields.\u000a\u000aInvestors are awaiting the Jackson Hole gathering where central bankers from around the world may debate different policy approaches to normalize interest rates and their postcrisis balance sheets, bloated after years of quantitative easing. Some analysts are hoping for further details on when the Federal Reserve will stop shrinking its more than $4.2 trillion portfolio of securities, which at its peak stood at around $4.5 trillion.\u000a\u000aCentral bankers have, in the past, used Jackson Hole to deliver important policy signals. Fed Chairman Jerome Powell will deliver a speech on \u201cmonetary policy in a changing economy\u201d on Friday at 10 a.m. Eastern. Investors will also receive an update of the Fed\u2019s thinking through the minutes of the August meeting for the Federal Open Market Committee, its rate-setting body, on Wednesday.\u000a\u000aRead: Fed\u2019s Powell may use Jackson Hole speech to discuss potential trouble ahead\u000a\u000a\u201cThis time, with the U.S. economy performing well and the U.S. equity market in reasonably good shape, it\u2019s hard to believe that the Fed Chairman will do anything other than maintain the current path of policy normalization,\u201d said Kit Juckes, chief fixed income and FX strategist at Société Générale, in a Monday note.\u000a\u000aAnalysts say weakness in emerging markets like Turkey and Venezuela may have been driving investors into Treasurys, hurting speculators who had bet on yields to head higher in a so-called short squeeze. This describes when rising prices force traders who have placed short bets for prices to fall to cover their positions, accelerating the price rise.\u000a\u000aSee: Gundlach warns record short bets on government bonds could cause \u2018quite a squeeze\u2019\u000a\u000aAccording to data from the Commodity Futures Trading Commission, the number of bearish bets by speculators exceeded bullish ones for 10-year Treasury note futures US:TYU8 stood at more than 698,000 as of last Tuesday, a record.\u000a\u000a\u201cThe market moves are outsize on the longer-end of the curve. There\u2019s rumors of a short squeeze on the way,\u201d said Subadra Rajappa, head of U.S. rates strategy at Société Générale.\u000a\u000aMeanwhile, news reports said that President Donald Trump, at a fundraiser in the Hamptons, complained that Powell was not as dovish as he had hoped. Trump has complained that the central bank has undone his efforts to stimulate the economy through tax cuts.
+p2
+sS'meta_description'
+p3
+S'Treasury prices rose Monday, pulling down yields ahead of the gathering of global central bankers later in the week in Jackson Hole, Wyo.'
+p4
+sS'datetime'
+p5
+V20-Aug-2018
+p6
+sS'link'
+p7
+Vhttps://www.marketwatch.com/story/treasury-yields-tick-lower-as-traders-prepare-for-jackson-hole-central-banker-gathering-2018-08-20
+p8
+sS'title'
+p9
+V10-year U.S. government bond yield slides to lowest since May
+p10
+s.

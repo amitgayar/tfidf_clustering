@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+VIndian stock markets, the rupee and bond prices slumped after the unexpected resignation by RBI governor Urjit Patel and after early trends showed the BJP was trailing in Rajasthan and facing a close contest in Madhya Pradesh and Chhattisgarh
+p2
+sS'meta_description'
+p3
+S'Indian stock markets, the rupee and bond prices slumped after the unexpected resignation by RBI governor Urjit Patel and after early trends showed the BJP was trailing in Rajasthan and facing a close contest in Madhya Pradesh and Chhattisgarh'
+p4
+sS'datetime'
+p5
+V10-Dec-2018
+p6
+sS'link'
+p7
+Vhttps://www.livemint.com/Money/wzSXpFijZ6cktV2gr2ZjeP/Markets-rupee-and-bond-prices-fall-after-RBI-chief-Urjit-Pa.html
+p8
+sS'title'
+p9
+VMarkets, rupee and bond prices fall after RBI chief Urjit Patel resigns
+p10
+s.

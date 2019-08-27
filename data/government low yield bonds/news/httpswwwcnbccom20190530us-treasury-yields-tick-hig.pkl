@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+VLong-term U.S. government debt yields reversed an early climb Thursday and fell into the red in afternoon trading as investor angst over the state of the global economy rekindled demand for safer assets.\u000a\u000aAt around 2:47 p.m. ET, the yield on the benchmark 10-year Treasury note, which moves inversely to price, was lower at around 2.225%, off a 20-month low of 2.21% hit on Wednesday. A portion of the yield curve remained inverted as the yield on the 3-month Treasury bill held rose to 2.372%. The 2-year rate slipped to 2.067%.\u000a\u000aUnder normal market conditions, those that buy debt from the U.S. government for years are compensated with better interest rates than those who loan money for a matter of months. That usual upward yield curve can sometimes "invert" downward if traders think future output growth is likely to fall.\u000a\u000aThe most recent angst about the economic outlook, for example, has sparked purchases of long-term Treasury debt, keeping rates on securities with longer maturities below those with shorter expirations. The spread between the 10-year yield and the 2-year yield, the part of the yield curve that some believe is most important, remained at a positive, albeit flattish 15 basis points.
+p2
+sS'meta_description'
+p3
+S'U.S. government debt yields fell into the red Thursday as angst over the state of the global economy kindled demand for safer assets.'
+p4
+sS'datetime'
+p5
+V30-May-2019
+p6
+sS'link'
+p7
+Vhttps://www.cnbc.com/2019/05/30/us-treasury-yields-tick-higher-amid-recession-fears.html
+p8
+sS'title'
+p9
+VTreasury yields fall into the red as May decline continues
+p10
+s.

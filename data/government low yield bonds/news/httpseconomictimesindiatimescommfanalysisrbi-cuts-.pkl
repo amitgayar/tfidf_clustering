@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+VWith yet another 25-basis-points cut in policy rates today, the Reserve Bank of India offered two consecutive rate cuts as debt market pundits had predicted. Does it mean the easy money regime is finally here? Will more rate cuts follow? Is it time to change the debt mutual fund investment strategy? These are some of the question mutual fund investors are asking today after the RBI policy review.Governor Shaktikanta Das-led six-member monetary policy committee ( MPC ) on Thursday announced a 25 basis points cut in the short-term lending rate, also known as repo rate , in its first bi-monthly meeting for FY20. " On the basis of an assessment of the current and evolving macroeconomic situation, the Monetary Policy Committee (MPC) at its meeting today decided to:\u2022 reduce the policy repo rate under the liquidity adjustment facility (LAF) by 25 basis points to 6.0 per cent from 6.25 per cent with immediate effect.Consequently, the reverse repo rate under the LAF stands adjusted to 5.75 per cent, and the marginal standing facility (MSF) rate and the Bank Rate to 6.25 per cent. The MPC also decided to maintain the neutral monetary policy stance," the RBI said in its policy report."Looking at the current developments, both at the global and the domestic end, and going by the guidance in the previous policy, a 25 bps rate cut was expected. The market has already factored that in. We also expected guidance for more rates to come in the coming policies," says Mahendra Jajoo, head of fixed income, Mirae Asset.However, the two back-to-back cuts haven\u2019t changed the minds of debt mutual fund managers. They continue to maintain that investors should stick to short to medium duration debt schemes and accrual funds because of the uncertainties in the debt markets. "Large government borrowing and the possibility of slow down in the pace of OMOs keep the scenario uncertain. So, until we have clarity on these issues, the shorter end of the curve would remain attractive. We still don't know the fate of long duration funds. I think three year corporate bond funds would be the best bet," says Mahendra Jajoo.Even though the market has already factored in the 25 bps cut in the policy rates, it was waiting for a clear stance on the future course of rates. "The global developments, including the Fed's new stance coupled with domestic developments like inflation, has given RBI a clear way to cut rates. What we were looking forward to was how dovish would RBI's stance be," says Kumaresh Ramakrishnan, head of fixed income, DHFL Pramerica Mutual Fund.Debt mutual fund managers continue to believe that it is not time yet to bet on long duration debt schemes, including gilt schemes, as the clouds of concern are not over yet. "We still don't know th fate of OMOs and how the govt borrowing will pan out in this year. I believe that short to medium duration funds would be a good place to stay for investors. If you want to go long-term, choose dynamic bond funds," says Kumaresh Ramakrishnan.A soft interest rate environment is considered ideal for debt mutual funds, especially long duration debt mutual fund schemes because of the inverse relationship between bond yield and prices. When rates go down, the demand for bonds that pay higher rates go up. This pushes up their prices, which result in higher NAV.
+p2
+sS'meta_description'
+p3
+S'With yet another 25-basis-points cut in policy rates today, the RBI offered two consecutive rate cuts as debt market pundits had predicted.'
+p4
+sS'datetime'
+p5
+V03-Apr-2019
+p6
+sS'link'
+p7
+Vhttps://economictimes.indiatimes.com/mf/analysis/rbi-cuts-repo-rate-by-25-bps-is-it-time-to-alter-your-debt-mutual-fund-strategy/articleshow/68717710.cms
+p8
+sS'title'
+p9
+VRBI cuts repo rate by 25 bps; is it time to alter your debt mutual fund strategy?
+p10
+s.

@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+VYou can try to play down a trade war with China. You can brush off the impact of rising oil prices on corporate earnings.\u000a\u000aBut if you\u2019re in the business of making economic predictions, it has become very difficult to disregard an important signal from the bond market.\u000a\u000aThe so-called yield curve is perilously close to predicting a recession \u2014 something it has done before with surprising accuracy \u2014 and it\u2019s become a big topic on Wall Street.\u000a\u000aTerms like \u201cyield curve\u201d can be mind-numbing if you\u2019re not a bond trader, but the mechanics, practical impact and psychology of it are fairly straightforward. Here\u2019s what the fuss is all about.
+p2
+sS'meta_description'
+p3
+VThe bond market\u2019s yield curve is perilously close to predicting a recession \u2014 something it has done with surprising accuracy \u2014 and it\u2019s become a big topic on Wall Street.
+p4
+sS'datetime'
+p5
+V25-Jun-2018
+p6
+sS'link'
+p7
+Vhttps://www.nytimes.com/2018/06/25/business/what-is-yield-curve-recession-prediction.html
+p8
+sS'title'
+p9
+VWhat\u2019s the Yield Curve? \u2018A Powerful Signal of Recessions\u2019 Has Wall Street\u2019s Attention
+p10
+s.

@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+V
+p2
+sS'meta_description'
+p3
+S'Is a government bond ASX ETF still a good option in a low-interest rate environment?'
+p4
+sS'datetime'
+p5
+V17-Jul-2019
+p6
+sS'link'
+p7
+Vhttps://www.raskmedia.com.au/2019/07/18/do-asx-government-bond-etfs-still-make-sense/
+p8
+sS'title'
+p9
+VDo ASX Government Bond ETFs Still Make Sense? | Rask Media
+p10
+s.

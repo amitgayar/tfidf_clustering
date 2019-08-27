@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+VThe 10-year Treasury note yield TMUBMUSD10Y, -1.05% fell 2.2 basis points to 2.570%, while the 2-year note yield TMUBMUSD02Y, -1.19% declined 2.7 basis point to 2.364%, its biggest daily decline in nearly four weeks. The 30-year bond yield TMUBMUSD30Y, -0.94% was down 1.3 basis points to 2.982%. Prices for debt move in the opposite direction of yields.\u000a\u000aThe Treasury Department sold its first batch of paper this week, drawing healthy demand for $40 billion of 2-year notes. It will also sell another $73 billion of debt in 5-year and 7-year notes later on Wednesday and Thursday. Trading in government bonds can be influenced by an influx of fresh bonds as broker-dealers make room for the incoming supply.\u000a\u000aEuropean bonds and Italian government debt came under pressure ahead of a ratings review by S&P Global on Friday. The ratings firm has currently given Italy a BBB rating, two notches above junk status, but has issued a negative outlook on the country, a sign that Italy\u2018s rating may be lowered.\u000a\u000aThe European Union statistics office reported that Italy\u2019s public debt had risen to 132.2% of its annual output in 2018, from 131.4%.\u000a\u000a\u201cThe market was very well bid,\u201d wrote Thomas Simons, senior money market economist at Jefferies, who described the afternoon auction\u2019s results as \u201csolid.\u201d\u000a\u000aHe said, however, the rally in stocks and oil could sap appetite for the rest of the bond auctions this week.\u000a\u000aNew home sales for March jumped 4.5% to run at an annualized pace of 692,000, from 667,000 in February. More important, market participants will keep an eye on the first estimate of first-quarter gross domestic product growth on Friday.\u000a\u000aSee: Economy stumbled out of the gate in early 2019 but finished stronger, GDP to show
+p2
+sS'meta_description'
+p3
+S'Treasury prices rise Tuesday, pushing yields lower, as a strong debt auction show investors retain a healthy appetite for government paper.'
+p4
+sS'datetime'
+p5
+V23-Apr-2019
+p6
+sS'link'
+p7
+Vhttps://www.marketwatch.com/story/treasury-yields-edge-lower-ahead-of-key-debt-auction-2019-04-23
+p8
+sS'title'
+p9
+V2-year Treasury yield posts biggest daily decline in four weeks after \u2018solid\u2019 debt auction
+p10
+s.

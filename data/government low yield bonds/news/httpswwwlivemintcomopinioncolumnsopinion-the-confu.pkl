@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+VShould RBI explicitly signal its broad market intervention strategy to reduce uncertainty in the bond market?
+p2
+sS'meta_description'
+p3
+S'Should RBI explicitly signal its broad market intervention strategy to reduce uncertainty in the bond market?'
+p4
+sS'datetime'
+p5
+V12-Mar-2019
+p6
+sS'link'
+p7
+Vhttps://www.livemint.com/opinion/columns/opinion-the-confusing-message-from-the-india-bond-market-1552428429133.html
+p8
+sS'title'
+p9
+VOpinion | The confusing message from the India bond market
+p10
+s.

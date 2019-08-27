@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+VTreasury yields came off session lows on Friday after a strong retail sales number suggested consumers would continue to spend, a source of solace for investors concerned over the U.S. economy\u2019s health.\u000a\u000aThe 10-year Treasury note yield TMUBMUSD10Y, -1.05%   was virtually unchanged at 2.093% after coming off an intraday low of 2.058%. The benchmark maturity rose nearly a single basis points for the week.\u000a\u000aThe 2-year note yield TMUBMUSD02Y, -1.19%  , sensitive to shifting expectations for interest-rate policy, was also mostly flat at 1.850%, but up 1.6 basis points this week. The 30-year bond yield TMUBMUSD30Y, -0.94%  fell 1.6 basis points to 2.591%, and was up 2.2 basis points for the week. Debt prices move in the opposite direction of yields.\u000a\u000aBond yields rose throughout Friday\u2019s session after retail sales for May rose 0.5%, providing some evidence that consumer spending was still providing the economy with momentum. The May reading for industrial production rose 0.4%, above the 0.2% anticipated by analysts polled by MarketWatch.\u000a\u000aBut not all the data pointed to a rosy picture for U.S. households, a key pillar of the economic expansion. The University of Michigan\u2019s consumer-sentiment index in June fell to 97.9 from 100 in May. They also reported that consumers anticipated a long-term inflation rate of 2.2%, the lowest in the history of the survey.\u000a\u000aInvestors said trading was mostly range-bound this week as traders kept their eyes on the upcoming Federal Reserve meeting next week, where it is expected to either cut rates or open the door to a cut in the near-future. The central bank could have a tough communication problem on hand as senior policymakers have insisted they would stick to their patient stance unless economic data deteriorated materially.\u000a\u000a\u201cThe question for Powell is how do you walk back expectations for a rate cut, when a lot of people will interpret what he said \u201cabout acting as appropriate to extend the expansion\u201d as a sign that the Fed is going to push for a cut. Now he\u2019s got to say, now is not the right time,\u201d Jason Thomas, chief economist for AssetMark, told MarketWatch.\u000a\u000aFears over global economic growth surfaced again overnight after Chinese data showed signs that the second largest economy in the world was under pressure.\u000a\u000aChinese industrial output rose 5% in May, falling short of the 5.5% forecast. Meanwhile, fixed-asset investment outside Chinese rural households climbed 5.6% in the January-May period from a year earlier, lower than the 6.1% increase recorded in the January-April period.
+p2
+sS'meta_description'
+p3
+S'Treasury yields come off session lows on Friday after a solid retail sales number.'
+p4
+sS'datetime'
+p5
+V14-Jun-2019
+p6
+sS'link'
+p7
+Vhttps://www.marketwatch.com/story/10-year-treasury-yield-nears-21-month-low-after-soft-china-data-2019-06-14
+p8
+sS'title'
+p9
+VTreasury yields bounce off intraday lows after stronger-than-expected retail sales
+p10
+s.

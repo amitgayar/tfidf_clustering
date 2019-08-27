@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+VTrading volume in Japan\u2019s benchmark 10-year government bond has been slowing even as caution has increased in global markets since the start of February, with no exchange trading of the debt on Tuesday.\u000a\u000aWhile activity has been sapped in part by local investors unsure about the direction of Japan\u2019s central-bank monetary policy, seasonal factors are also at play. March is the end of the fiscal year for many Japanese companies, and companies generally don\u2019t want to make late portfolio changes.
+p2
+sS'meta_description'
+p3
+VTrading volume in Japan\u2019s benchmark 10-year government bond has been slowing even as caution has increased in global markets since the start of February, with no exchange trading of the debt on Tuesday.
+p4
+sS'datetime'
+p5
+V15-Mar-2018
+p6
+sS'link'
+p7
+Vhttps://www.wsj.com/articles/nobodys-trading-10-year-japanese-government-bonds-1521113501
+p8
+sS'title'
+p9
+VNobody\u2019s Trading 10-Year Japanese Government Bonds
+p10
+s.

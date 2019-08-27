@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+VPlease make sure your browser supports JavaScript and cookies and that you are not blocking them from loading. For more information you can review our Terms of Service and Cookie Policy.
+p2
+sS'meta_description'
+p3
+S''
+p4
+sS'datetime'
+p5
+V17-Jul-2019
+p6
+sS'link'
+p7
+Vhttps://www.bloomberg.com/news/articles/2019-07-18/bond-markets-once-felled-governments-now-negative-yields-rule
+p8
+sS'title'
+p9
+VBloomberg - Are you a robot?
+p10
+s.

@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+V
+p2
+sS'meta_description'
+p3
+S'The plan for an overseas bond issue is likely to reduce supply of bonds in India and thus impact their prices.Falling bond yields globally, amid expectations of the US Federal Reserve adopting a dovish stance, also influenced domestic yields'
+p4
+sS'datetime'
+p5
+V16-Jul-2019
+p6
+sS'link'
+p7
+Vhttps://www.livemint.com/market/stock-market-news/rate-cut-hopes-see-bond-yields-diving-to-lowest-since-december-2016-1563268903632.html
+p8
+sS'title'
+p9
+VRate cut hopes see bond yields diving to lowest since December 2016
+p10
+s.

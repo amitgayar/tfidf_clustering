@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+VTOKYO, Dec 18 (Reuters) - Short-term Japanese government bond yields have fallen deeper into negative territory this week to their lowest levels in more than a year, driven by domestic investors bringing cash back home and foreigners drawn to fully-hedged returns on JGBs.\u000a\u000aThe five-year JGB yield fell to minus 0.15 percent on Tuesday, touching its lowest levels since September 2017. Traders suspect the heavy bids from foreign and domestic investors could also push 10-year yields to negative levels for the first time in 15 months.\u000a\u000aHeavy demand from Japanese investors for dollar-denominated assets had pushed up the cost of hedging yen-to-dollar exposures, making that trade unviable and forcing Japanese investors to bring cash back into yen markets.\u000a\u000aAt the same time, the juicy premium Japanese investors were willing to pay to swap their yen for dollars lured foreign investors. While Japanese government bonds (JGBs) have negative yields, the earnings from swapping dollars for yen more than offsets this cost for investors.\u000a\u000a\u201cFor Japanese investors, U.S. bond investments no longer work because of rising hedge costs,\u201d said Yusuke Ikawa, Japan strategist at BNP Paribas.\u000a\u000aJapanese investors typically hedge most of their currency risks on overseas bond investments, often paying 30-60 basis points more than the dollar-yen swap rates owing to the heavy demand. The Fed\u2019s rate rises have also widened the gap in interest rates between yen and dollars, leading to higher swap costs for yen investors.\u000a\u000aFor foreigners, two-year Japanese government bonds could yield about 3.08 percent when swapped to dollars, about 40 basis points above U.S. Treasuries.\u000a\u000aJapanese money parked in U.S. bonds has steadily returned to domestic markets. They have been buying JGBs but there\u2019s also been heavy trading in the interest rate derivatives markets , a derivative that offers bond-like features.\u000a\u000aThe five-year yen interest rate swap fell to 0.01 percent, the lowest level since November 2016, from around 0.15 percent in early October. That in turn put further pressure on JGB yields.\u000a\u000aJapanese government data last week showed foreign investors bought 1.718 trillion yen ($15.27 billion) of Japanese bonds in the first week of December, the record amount surpassing 1.382 trillion yen bought in late April 2011.
+p2
+sS'meta_description'
+p3
+S'Short-term Japanese government bond yields have fallen deeper into negative territory this week to their lowest levels in more than a year, driven by domestic investors bringing cash back home and foreigners drawn to fully-hedged returns on JGBs.'
+p4
+sS'datetime'
+p5
+V18-Dec-2018
+p6
+sS'link'
+p7
+Vhttps://www.reuters.com/article/japan-rates/japan-bond-yields-fall-deeper-into-negative-as-domestic-foreign-money-rushes-in-idUSL3N1YN13G
+p8
+sS'title'
+p9
+VJapan bond yields fall deeper into negative as domestic, foreign...
+p10
+s.

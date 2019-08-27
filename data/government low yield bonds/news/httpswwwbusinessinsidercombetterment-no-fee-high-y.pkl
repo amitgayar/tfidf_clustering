@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+VHigh-yield savings keeps getting better.\u000a\u000aOn Tuesday, the online investing platform and virtual financial adviser Betterment debuted a high-yield savings account, rivaling those of its online competitors.\u000a\u000aTo earn the 2.69% APY on Betterment's savings account, you need to join the waitlist for its checking account, which is set to become available later in 2019. The Betterment Everyday Checking account will have no maintenance or overdraft fees and no minimum balance. The account comes with a Visa debit card, and Betterment will reimburse all ATM fees for accountholders.\u000a\u000aIf you don't join the waitlist for a Betterment checking account, you'll earn 2.43% on your savings balance. Any savings account with an interest rate above 2% is worth consideration, especially if there are no fees and the account otherwise meets your preferences.\u000a\u000aBetterment's Everyday Savings account comes with two unique features to automate savings: cash analysis and two-way sweep. After you link a checking account, you can use the cash analysis tool to identify "excess cash" to save, or money that exceeds about a month's worth of expenses in your checking.\u000a\u000aWhen you activate the two-way sweep feature, Betterment will automatically transfer any excess cash from your checking account into your high-yield account, so long as your checking balance doesn't dip below the limit you set.\u000a\u000aUp until now, robo-adviser Wealthfront was leading the pack with one of the best rates among comparable high-yield accounts, earning 2.57% on all balances. You need just $1 to open a Wealthfront Cash Account, which also allows unlimited transfers and offers FDIC insurance on up to $1 million.\u000a\u000aIf you're still keeping your money for a rainy day in a regular savings account that earns 0.1% interest, you might consider moving it into a high-yield savings account. Most financial planners recommend storing money for emergencies and short-term goals\u000a\u000abecause there's zero risk of losing money, it's easily accessible, and it grows while it's sitting there.\u000a\u000aHowever, it's important to keep in mind that interest rates are not set in stone. Rates are subject to change at any time, depending on the government's interest-rate benchmark.\u000a\u000aBetterment's only savings-like product up until now was Smart Saver. Technically a taxable investment account, Smart Saver is comprised of a two-fund bond portfolio with an expected annual yield of 2% to keep up with inflation. Bonds are relatively low risk compared to stocks, but the money is not insured like it would be in a savings account. Betterment has suggested using Smart Saver to invest cash you don't need readily available, particularly if you plan to put it into higher risk investments soon.\u000a\u000aDisclosure: This post is brought to you by the Personal Finance Insider team. We occasionally highlight financial products and services that can help you make smarter decisions with your money. We do not give investment advice or encourage you to adopt a certain investment strategy. What you decide to do with your money is up to you. If you take action based on one of our recommendations, we get a small share of the revenue from our commerce partners. This does not influence whether we feature a financial product or service. We operate independently from our advertising sales team.
+p2
+sS'meta_description'
+p3
+S"Westend61/GettyTo earn the 2.69% APY on your high-yield savings account, you have to join the waitlist for Betterment's checking account.Betterment, the online"
+p4
+sS'datetime'
+p5
+V19 hours ago
+p6
+sS'link'
+p7
+Vhttps://www.businessinsider.com/betterment-no-fee-high-yield-savings-account-top-interest-rate-2019-7
+p8
+sS'title'
+p9
+VBetterment just launched its own fee-free, high-yield savings account with one of the best rates on the market: 2.69%
+p10
+s.

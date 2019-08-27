@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+VMumbai: The rupee pared most of its initial losses and closed with a marginal 2 paise drop at 68.94 against the US dollar on Tuesday amid strengthening of the greenback against major currencies and sustained foreign fund outflows.A weak trend in domestic equity markets also weighed on investor sentiment.At the interbank foreign exchange (forex) market, the domestic currency opened at 68.98 a dollar and touched a high of 68.90 and low of 69.05 during the day.The local unit finally closed at 68.94 against the American currency, down 2 paise over its previous close.On Monday, the rupee had settled at 68.92 against the US dollar."Rupee settled for the day lower by 2 paise against dollar amid sustained foreign fund outflows and weak domestic equity markets," said V K Sharma, Head PCG & Capital Markets Strategy, HDFC Securities. Brent crude futures, the global oil benchmark, fell 0.55 per cent to trade at USD 62.91 per barrel.Foreign investors sold shares worth Rs 2,607.97 crore on a net basis on Tuesday, provisional data showed.The dollar index, which gauges the greenback's strength against a basket of six currencies, rose by 0.22 per cent to 97.47."Strengthening of the US Dollar against other currencies overseas kept pressure on the Indian Rupee . ICE Dollar Index has been rising for last 3 consecutive days, marking the highest level since 18th June 2019," Sharma said.Meanwhile, the 10-year government bond yield was at 6.46 per cent on Tuesday.Going ahead, global cues like ECB meeting on Thursday, the US Q2 preliminary GDP print on Friday and the FOMC meeting on July 31, are expected to impact rupee movement, traders said.Equity benchmarks Sensex and Nifty clocked losses for a fourth straight session on Tuesday. The 30-share index ended 48.39 points, or 0.13 per cent, lower at 37,982.74. The broader NSE Nifty slipped 15.15 points or 0.13 per cent to close at 11,331.05.Meanwhile, Financial Benchmark India Private Ltd (FBIL) set the reference rate for the rupee/dollar at 69.0199 and for rupee/euro at 77.4215. The reference rate for rupee/British pound was fixed at 86.2956 and for rupee/100 Japanese yen at 63.94.
+p2
+sS'meta_description'
+p3
+S'A weak trend in domestic equity market also weighed on investor sentiment.'
+p4
+sS'datetime'
+p5
+V20 hours ago
+p6
+sS'link'
+p7
+Vhttps://economictimes.indiatimes.com/markets/forex/rupee-settles-almost-flat-at-68-94-against-us-dollar/articleshow/70348817.cms
+p8
+sS'title'
+p9
+VRupee settles almost flat at 68.94 against US dollar
+p10
+s.

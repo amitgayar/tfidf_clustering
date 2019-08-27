@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+S''
+p2
+sS'meta_description'
+p3
+S'The Canadian dollar weakened to\na near two-week low against its U.S. counterpart on Monday as\ndomestic data showed a surprise drop in May wholesale trade,\nsupporting the view that the Bank of Canada could cut interest\nrates this year.\n    At 2:58 p.m. (1858 GMT), the Canadian dollar          was\ntrading 0.4% lower, at 1.3111 to the greenback, or 76.27 U.S.\ncents. The currency, which touched its weakest intraday level\nsince July 10 at 1.3119, has pulled back from a near nine-month\nhigh on Friday at 1.3016.\n    "With weaker data potentially creating more expectation in\nthe market for easier policy from the Bank of Canada, I think\nit\'s playing as a headwind to the CAD today" said Michael\nGreenberg, a portfolio manager at Franklin Templeton Multi-Asset\nsolutions.\n    Chances of a Bank of Canada interest rate cut this year have\nclimbed to more than 50% from about 20% before the Bank of\nCanada\'s interest rate decision earlier this month.           \nThe central bank left its benchmark interest rate unchanged at\n1.75% but highlighted the risks that trade wars posed to the\nglobal economy.             \n    Canadian wholesale trade fell 1.8% in May after five months\nof gains, Statistics Canada said, as sales in the motor vehicle\nand auto parts industries dropped, while the inventory-to-sales\nratio rose to its highest level since October 1995. Analysts had\npredicted an increase of 0.5% for wholesale trade.             \n    "Not only was the headline number quite weak versus\nexpectations for wholesale trade, some of the internals, such as\nhigh inventory levels, are also a little bit concerning,"\nGreenberg said.\n    It was the second domestic economic report in as many\ntrading days that was weaker than expected. On Friday, data\nshowed a surprise decline in May retail sales.    \n    Meanwhile, the price of oil, one of Canada\'s major exports\nrose on Monday, on worries about possible supply disruptions in\nthe Middle East after Iran\'s seizure of a British tanker last\nweek. U.S. crude oil futures        settled 1.1% higher at\n$56.22 a barrel.            \n    Canadian government bond prices were higher across the yield\ncurve, with the two-year            up 6.5 Canadian cents to\nyield 1.431% and the 10-year             rising 27 Canadian\ncents to yield 1.481%.\n    The gap between Canada\'s 2-year yield and its U.S.\ncounterpart widened by 3.0 basis points to a spread of 38.3\nbasis points in favor of the U.S. bond, the biggest gap since\nJune 18.\n\n (Reporting by Levent Uslu; additional reporting by Fergal\nSmith; editing by Jonathan Oatis and Leslie Adler)'
+p4
+sS'datetime'
+p5
+V22-Jul-2019
+p6
+sS'link'
+p7
+Vhttps://www.reuters.com/article/canada-forex/canada-fx-debt-c-hits-2-week-low-as-investors-fret-about-wholesale-miss-idUSL2N24N174
+p8
+sS'title'
+p9
+VCANADA FX DEBT-C$ hits 2-week low as investors fret about wholesale...
+p10
+s.

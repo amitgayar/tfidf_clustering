@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+VFor many investors, the term "junk bond" evokes thoughts of investment scams and high-flying financiers of the 1980s, such as Ivan Boesky and Michael Milken, who were known as "junk-bond kings." But don't let the term fool you - if you own a bond fund, these worthless-sounding investments may have already found their way into your portfolio. Here's what you need to know about junk bonds.\u000a\u000aFrom a technical viewpoint, a junk bond is exactly the same as a regular bond. Junk bonds are an IOU from a corporation or organization that states the amount it will pay you back (principal), the date it will pay you back (maturity date) and the interest (coupon) it will pay you on the borrowed money.\u000a\u000aJunk bonds differ because of their issuers' credit quality. All bonds are characterized according to this credit quality and therefore fall into one of two bond categories:\u000a\u000aThink of a bond rating as the report card for a company's credit rating. Blue-chip firms that provide a safer investment have a high rating, while risky companies have a low rating. The chart below illustrates the different bond-rating scales from the two major rating agencies, Moody's and Standard & Poor's:\u000a\u000aAlthough junk bonds pay high yields, they also carry a higher-than-average risk that the company will default on the bond. Historically, average yields on junk bonds have been 4-6% above those for comparable U.S. Treasuries.\u000a\u000aYou need to know a few things before you run out and tell your broker to buy all the junk bonds he can find. The obvious caveat is that junk bonds are high risk. With this bond type, you risk the chance that you will never get your money back. Secondly, investing in junk bonds requires a high degree of analytical skills, particularly knowledge of specialized credit. Short and sweet, investing directly in junk is mainly for rich and motivated individuals. This market is overwhelmingly dominated by institutional investors.\u000a\u000aThis isn't to say that junk-bond investing is strictly for the wealthy. For many individual investors, using a high-yield bond fund makes a lot of sense. Not only do these funds allow you to take advantage of professionals who spend their entire day researching junk bonds, but these funds also lower your risk by diversifying your investments across different asset types. One important note: know how long you can commit your cash before you decide to buy a junk fund. Many junk bond funds do not allow investors to cash out for one to two years.\u000a\u000aAlso, there comes a point in time when the rewards of junk bonds don't justify the risks. Any individual investor can determine this by looking at the yield spread between junk bonds and U.S. Treasuries. As we already mentioned, the yield on junk is historically 4-6% above Treasuries. If you notice the yield spread shrinking below 4%, then it probably isn't the best time to invest in junk bonds. Another thing to look for is the default rate on junk bonds. An easy way to track this is by checking the Moody's website.\u000a\u000aThe final warning is that junk bonds are not much different than equities in that they follow boom and bust cycles. In the early 1990s, many bond funds earned upwards of 30% annual returns, but a flood of defaults can cause these funds to produce stunning negative returns.\u000a\u000aDespite their name, junk bonds can be valuable investments for informed investors, but their potential high returns come with the potential for high risk.
+p2
+sS'meta_description'
+p3
+S'Despite their name, junk bonds can be valuable investments for informed investors, but their potential high returns come with the potential for high risk.'
+p4
+sS'datetime'
+p5
+V09-Jan-2017
+p6
+sS'link'
+p7
+Vhttps://www.investopedia.com/articles/02/052202.asp
+p8
+sS'title'
+p9
+VEverything You Need to Know About Junk Bonds
+p10
+s.

@@ -1,0 +1,22 @@
+(dp0
+S'content'
+p1
+VMUMBAI (Reuters) - India\u2019s benchmark 10-year bond yield dropped to its lowest level in more than a year on Monday buoyed by a fall in global crude oil prices and announcement of another round of open market operations by the central bank.\u000a\u000a\u201cThere is also possibly some foreign portfolio investor buying happening in the market,\u201d a senior trader at a private bank said.\u000a\u000aIndia\u2019s benchmark 10-year bond yield at 7.16%, its lowest level since April 9, 2018. It had ended at 7.23% on Friday.\u000a\u000aTraders expect sentiment for bonds to remain positive ahead of the upcoming monetary policy committee meeting outcome on June 6. The Reserve Bank of India (RBI) last week announced an open market operation to buy up to 150 billion Indian rupees ($2.16 billion) worth of bonds on June 13.\u000a\u000a\u201cThe auction amount overall is lesser than what they did in May but they have not said they won\u2019t do more. So we need to wait and watch. They will conduct another round possibly if they see the need for it,\u201d a senior dealer with a state-run bank said.\u000a\u000aThe RBI had conducted two OMOs for a total of 250 billion rupees in May.
+p2
+sS'meta_description'
+p3
+S"India's benchmark 10-year bond yield dropped to its lowest level in more than a year on Monday buoyed by a fall in global crude oil prices and announcement of another round of open market operations by the central bank."
+p4
+sS'datetime'
+p5
+V26-May-2019
+p6
+sS'link'
+p7
+Vhttps://in.reuters.com/article/india-bonds/india-10-year-bond-yield-at-over-one-year-low-sentiment-bullish-idINKCN1SX0IJ
+p8
+sS'title'
+p9
+VIndia 10-year bond yield at over one-year low; sentiment bullish
+p10
+s.
