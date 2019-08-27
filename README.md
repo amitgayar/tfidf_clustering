@@ -1,7 +1,8 @@
-#tfidf+clustering
+# tfidf + clustering
 tfidf + clustering
 
 Installation guide:
+
 	1. make virtual env in "tfidf"(the project directory) in python3 
 		cd tfidf
 		virtualenv -p python3 venv_tfidf
@@ -11,6 +12,7 @@ Installation guide:
 		python -m spacy download en-core-web-md
 		
 Individual scripts:
+
 	1. "get_news_links.py" loads the various links based on input keywords
 	2. "extract.py" loads the various articles based on links downloaded by get_news_links.py script in the "data/<keywords>" directory 
 		does the clustering of the text extracted while accepting tuning parameters like min_tfidf value, para-segmentation.
@@ -19,7 +21,9 @@ Individual scripts:
 	4. "tfidf.py" constructs the tfidf matrix for clustering and appends the results to the same file created by spacy_cleansing.py
 
 worflow.py :
+
 	It just combines the all scripts to work in one go.
 
 Clustering :
+
 	??
