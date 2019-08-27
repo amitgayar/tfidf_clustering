@@ -12,6 +12,8 @@
 		pip install --upgrade pip
 		pip install -r requirements.txt
 		python -m spacy download en-core-web-md
+		python -m spacy download en-core-web-sm (lightest)
+		python -m spacy download en-core-web-lg (very heavy to load)
 		
 ### Individual scripts
 	- "get_news_links.py" loads the various links based on input keywords.
@@ -22,6 +24,7 @@
 		  Need to check for links extracted in comparison to links got)
 	- "spacy_cleansing.py" does the paragraph segmentation of articles and cleans the redundant 
 	    data using "spacy" library. "nltk" library results weren't so effective.
+	    	(issues: en-core-web-md, en-core-web-sm, en-core-web-lg)
 	- "tfidf.py" constructs the tfidf matrix for clustering and appends the results to the same 
 	    file created by spacy_cleansing.py
 
