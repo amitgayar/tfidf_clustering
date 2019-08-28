@@ -10,7 +10,7 @@
 	2. install requirements for the package and make sure pip is of python3 by "pip -V" command and
 	   of latest version.
 		pip install --upgrade pip
-		pip install -r requirements.txt
+		pip install -r requirement.txt
 		python -m spacy download en-core-web-md
 		python -m spacy download en-core-web-sm (lightest)
 		python -m spacy download en-core-web-lg (very heavy to load)
