@@ -32,4 +32,9 @@
 	- It just combines the all scripts to work in one go.
 
 ### Clustering
-	??
+	clust_kmean2.py clusters the article here but can be modified to cluster paragraphs of individual articles. It employs sklearn library
+	and results greatly depend on n_init and random_state parameters. 
+	Issue:
+		Higher value of random_state(4200) tends to give same clusters for each run.
+		n_init (10 here by default) decides the number of optimization re-run for clusters. 
+	

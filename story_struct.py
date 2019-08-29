@@ -10,18 +10,23 @@ class Story_Struct(object):
 		self.dir = os.path.join(os.path.dirname(__file__),'data', keywords)
 
 	def load(self, keyvalue = None):
-		# if not os.path.isdir(self.dir):
-		# 	return None
-
-		# file = os.path.join(self.dir, 'spacy_tf.pkl')		
-		# if not os.path.isfile(file):
-		# 	return None
-		data = pickle.load(open(file, 'rb'))	
+		if not os.path.isdir(self.dir):
+			return None
+			
+		file = os.path.join(self.dir, 'spacy_tf.pkl')
+		data = pickle.load(open(file, 'rb')) if os.path.isfile(file) else None
 		if keyvalue:
 			data = [d[keyvalue] for d in data]
 		return data
-
-	def save(self, data, **kwargs):
-		file = os.path.join(self.dir, 'spacy_tf.pkl')
-		pickle.dump(data, open(file, 'wb'))
-
+		
+ 
+	def save(self, data, filetype ):
+		if filetype == '.pkl':
+			filename = 'spacy_tf.pkl'
+			file = os.path.join(self.dir, filename)
+			pickle.dump(data, open(file, 'wb'))
+		else:
+			filename = 'cluster.csv'
+			df = pandas.DataFrame(data)
+			file = os.path.join(self.dir, filename)
+			df.to_csv(file)
