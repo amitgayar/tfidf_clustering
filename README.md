@@ -29,7 +29,14 @@
 	    file created by spacy_cleansing.py
 
 ### worflow.py 
-	- It just combines the all scripts to work in one go.
+	- It employs the class Story_Struct to process the whole story. 
+		Story_Struct class contains following methods:
+			1. load(self, keyvalue = None)
+			2. process(self, step, level='articles', no_of_doc=None, compute_again=False , filesave=False):
+			3. save(self, data, filetype )
+		parameters : 'no_of_doc' is number of articles to process at a time
+					 'compute_again' forces to recompute rather than to load from the processed files in directories.
+					 'filesave' saves or replaces the pre-processed files with the current computation.  
 
 ### Clustering
-	??
+	clust_kmean2.py
