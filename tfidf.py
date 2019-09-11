@@ -3,8 +3,12 @@ import os
 from os.path import isfile, isdir, join, isdir, dirname
 import math
 import pandas as pd
+import logging
+logging.basicConfig(level=logging.INFO, format='%(levelname)-8s [%(filename)s:%(lineno)d] : %(message)s')
 
 def word_count(doc):
+    if isinstance(doc, str):
+        doc = [doc]
     doc_set_all = []
     for docc in doc:
         doc_set = sorted(set().union(docc))
@@ -20,9 +24,8 @@ def computeTF(doc_set_all,doc):
     tfidf_all = []
     for i in range(len(doc)):
         tfidf = {}
-        doc_count = len(doc[i])
         for word, count in doc_set_all[i].items():
-            tfidf[word] = round((count+1)/doc_count,4)
+            tfidf[word] = round((count+1)/len(doc[i]),4)
     #     print(str(tfDict),'\n'
         tfidf_all.append(tfidf.copy())
     return tfidf_all
@@ -70,19 +73,41 @@ def computeTFIDF_matrix(wordSet, tfidf, l_doc):
     return tfidf_matrix
     
     
-def run_TFIDF(keywords, all_doc_list=None, filesave=True):
+def run_TFIDF(keywords, level='articles', no_of_doc=None, all_doc_list=None, compute_again=False, filesave=True):
     
     if not all_doc_list:
         file = join(dirname(__file__),'data/{}/spacy_tf.pkl'.format(keywords))
         if not isfile(file):
-            print('\nFILE DOES NOT EXIST\nGO TO THE PREVIOUS WORKFLOW STEPS\n')
-            return None
+            logging.info('FILE DOES NOT EXIST')
+            if not compute_again:
+                return None
         all_doc_list = pickle.load(open(file, 'rb'))
     if 'tfidf' in all_doc_list[0]:
-        print('\nTFIDF ALREADY CALCULATED\n')
-        return all_doc_list
-    print(all_doc_list[0].keys())
-    doc = [v['spacy_cleaned_article'][0] for v in all_doc_list]
+        logging.info('TFIDF ALREADY CALCULATED')
+        if not compute_again:
+            file = join(dirname(__file__),'data/{}/tfidf.csv'.format(keywords))
+            if not isfile(file):
+                logging.info("tfidf_matrix csv file has not been processed yet")
+                return None
+            tfidf_matrix =  pd.read_csv(file)
+            return all_doc_list, tfidf_matrix
+    logging.info('Keys of the Story Dictionary:{}\n'.format(all_doc_list[0].keys()))
+
+    if no_of_doc:
+        all_doc_list = all_doc_list[:no_of_doc]
+        logging.info("[{}] articles in the pipeline for processing".format(no_of_doc))
+    else:
+        logging.info("[ALL] {} in the pipeline for processing".format(level))
+    if level in ['articles' , 'article']:
+        logging.info("Level == {}".format(level))
+        doc = [v['spacy_cleaned_article'] for v in all_doc_list]
+    else:
+        logging.info("Level == {}".format(level))
+        doc=[]
+        for v in all_doc_list:
+            doc += [i for i in v['spacy_cleaned_para']]
+        logging.info("Number of paragraphs in first {} articles : {}".format(no_of_doc, len(doc)))
+    
     wordSet = sorted(set().union(*doc))
     
     doc_set_all = word_count(doc)
@@ -92,18 +117,18 @@ def run_TFIDF(keywords, all_doc_list=None, filesave=True):
     
     wordSet = sorted(set().union(new_wordSet))
     tfidf_matrix = computeTFIDF_matrix(wordSet, tfidf, len(doc))
-    for i in range(len(tfidf_matrix)):
-        all_doc_list[i]['tfidf'] = tfidf_matrix[i]
-    
-    if filesave :
+    # for i in range(len(tfidf_matrix)):
+    #     all_doc_list[i]['tfidf'] = tfidf_matrix[i]
+    df = pd.DataFrame(tfidf_matrix)
+    if filesave:
         file = join(dirname(__file__),'data/{}/spacy_tf.pkl'.format(keywords))
         pickle.dump(all_doc_list, open(file, 'wb'))
         file = join(dirname(__file__),'data/{}/tfidf.csv'.format(keywords))
-        df = pd.DataFrame(all_doc_list)
+        
         df.to_csv(file)
-        print('\n FILE SAVED FOR TFIDF\n')
-    
-    return all_doc_list
+        logging.debug(' FILE SAVED FOR TFIDF\n')
+
+    return all_doc_list, df
 
 
 
