@@ -6,8 +6,17 @@ import random
 import re
 import time
 import requests
-from torrequest import TorRequest
+# from torrequest import TorRequest
 import sys
+
+from stem import Signal
+from stem.control import Controller
+
+def resetIP():
+    with Controller.from_port(port=9051) as controller:
+        controller.authenticate(password='linux') 
+        controller.signal(Signal.NEWNYM) 
+        time.sleep(controller.get_newnym_wait()) 
 
 torpassword = 'linux'
 
@@ -56,40 +65,60 @@ def google_news_run(keyword, limit=10, year_start=2010, year_end=2019, debug=Tru
             logging.debug('For Google -> {}'.format(url))
             logging.debug('Total number of calls to Google = {}'.format(NUMBER_OF_CALLS_TO_GOOGLE_NEWS_ENDPOINT))
         headers = {'User-Agent': ua.chrome}
-        try:
-            response = requests.get(url, headers=headers, timeout=20)
-            links = extract_links(response.content)
-            logging.debug('Extract Links : {}'.format(str(links)))
-
-            nb_links = len(links)
-            if nb_links == 0 and num_articles_index == 0:
-                """raise Exception(
-                    'No results fetched. Either the keyword is wrong '
-                    'or you have been banned from Google. Retry tomorrow '
-                    'or change of IP Address.')"""
-                logging.debug('No results')
-                requests.reset_identity()
-                logging.debug('IP Changed. Retrying ....')
-                response = requests.get(url, headers=headers, timeout=20)
+        for _ in range(10):
+            try:                 
+                response = requests.get(url, headers=headers, timeout=20, proxies={'https': '127.0.0.1:8118'})
+                logging.debug('Response code : {}'.format(response.status_code))
+                
+                resetIP()
+                responseIP = requests.get('https://api.myip.com/', proxies={'https': '127.0.0.1:8118'}) 
+                print()
+                logging.debug("New IP : {}".format(responseIP.json()['ip']))
+                logging.debug('IP changed in try ')
+            
                 links = extract_links(response.content)
-                logging.debug('{}'.format(links))
+                logging.debug('Extract Links : {}'.format(str(links)))
+
                 nb_links = len(links)
                 if nb_links == 0 and num_articles_index == 0:
-                    logging.debug('No Links')
+                    """raise Exception(
+                        'No results fetched. Either the keyword is wrong '
+                        'or you have been banned from Google. Retry tomorrow '
+                        'or change of IP Address.')"""
+                    logging.debug('No results')
+                    # requests.reset_identity()
+                    resetIP()
+                    responseIP = requests.get('https://api.myip.com/', proxies={'https': '127.0.0.1:8118'}) 
+                    print()
+                    logging.debug("New IP : {}".format(responseIP.json()['ip']))                    
+                    logging.debug('IP Changed. Retrying ....')
+                    response = requests.get(url, headers=headers, timeout=20, proxies={'https': '127.0.0.1:8118'})
+                    links = extract_links(response.content)
+                    logging.debug('{}'.format(links))
+                    nb_links = len(links)
+                    if nb_links == 0 and num_articles_index == 0:
+                        logging.debug('No Links')
 
-            if nb_links == 0:
-                print('No more news to read for keyword {}.\nNOW...... Extraction Of Data From Each Link.\n\n\n'.format(keyword))
+                if nb_links == 0:
+                    print('No more news to read for keyword {}.\nNOW...... Extraction Of Data From Each Link.\n\n\n'.format(keyword))
+                    break
+
+                for i in range(nb_links):
+                    cur_link = links[i]
+                    # logging.debug('Links : {}'.format(str(cur_link)))
+                    logging.debug('TITLE = {},\nURL = {},\nDATE = {}\n'.format(cur_link[1], cur_link[0], cur_link[2]))
+                result.extend(links)
+            except:
+                print('SYS.EXC_INFO :: {}-----------------------------------------------------------------------\n\n'.format(sys.exc_info()))
+                logging.debug('Google news TimeOut. Maybe the connection is too slow. Skipping.')
+                resetIP()
+                logging.debug('IP changed in except ')
+                responseIP = requests.get('https://api.myip.com/', proxies={'https': '127.0.0.1:8118'}) 
+                print()
+                logging.debug("New IP (except): {}".format(responseIP.json()['ip']))                
+                pass
+            if response.status_code == 200:
                 break
-
-            for i in range(nb_links):
-                cur_link = links[i]
-                # logging.debug('Links : {}'.format(str(cur_link)))
-                logging.debug('TITLE = {},\nURL = {},\nDATE = {}\n'.format(cur_link[1], cur_link[0], cur_link[2]))
-            result.extend(links)
-        except:
-            print('SYS.EXC_INFO :: {}-----------------------------------------------------------------------\n\n'.format(sys.exc_info()))
-            logging.debug('Google news TimeOut. Maybe the connection is too slow. Skipping.')
-            pass
         num_articles_index += 10
         if debug and sleep_time_every_ten_articles != 0:
             logging.debug('Program is going to sleep for {} seconds.'.format(sleep_time_every_ten_articles))
@@ -141,9 +170,12 @@ def get_news_links(keywords):
     #         print('\nALREADY FETCHED LINKS\n')
     #     return None
     while True:
-        with TorRequest(proxy_port=9050, ctrl_port=9051, password=torpassword) as requests:
-            requests.reset_identity()
-            keyword = keywords
+        # with TorRequest(proxy_port=9050, ctrl_port=9051, password=torpassword) as requests:
+        #     requests.reset_identity()
+        response = requests.get('https://api.myip.com/', proxies={'https': '127.0.0.1:8118'}) 
+        logging.debug("Starting IP : {}".format(response.json()['ip']))
+        resetIP()
+        keyword = keywords
         try:
             run(keyword)
             # keyword = input("\nenter again another set of keywords to get links:\n")
@@ -153,7 +185,8 @@ def get_news_links(keywords):
             print(sys.exc_info())
             print('EXCEPTION CAUGHT in __MAIN__')
             print('NEED TO CHANGE THE IP !')
-            requests.reset_identity()    
+            # requests.reset_identity()    
+            resetIP()
 
 
         

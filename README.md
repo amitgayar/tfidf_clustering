@@ -3,6 +3,8 @@
 
 ### Prerequisites: 
 	Set Up Tor with HashedPassword = 'linux' (your choice)
+	Follow : https://gist.github.com/DusanMadar/8d11026b7ce0bce6a67f7dd87b999f6b
+	
 ### Installation guide
 	1. make virtual env in "tfidf"(the project directory) in python3 
 		cd tfidf
