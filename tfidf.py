@@ -73,24 +73,24 @@ def computeTFIDF_matrix(wordSet, tfidf, l_doc):
     return tfidf_matrix
     
     
-def run_TFIDF(keywords, level='articles', no_of_doc=None, all_doc_list=None, compute_again=False, filesave=True):
+def run_TFIDF(keywords, level='articles', no_of_doc=None, all_doc_list=None, compute_again=False):
     
     if not all_doc_list:
-        file = join(dirname(__file__),'data/{}/spacy_tf.pkl'.format(keywords))
+        file = join(dirname(__file__),'data/{}/spacy.pkl'.format(keywords))
         if not isfile(file):
-            logging.info('FILE DOES NOT EXIST')
-            if not compute_again:
-                return None
-        all_doc_list = pickle.load(open(file, 'rb'))
-    if 'tfidf' in all_doc_list[0]:
-        logging.info('TFIDF ALREADY CALCULATED')
-        if not compute_again:
-            file = join(dirname(__file__),'data/{}/tfidf.csv'.format(keywords))
-            if not isfile(file):
-                logging.info("tfidf_matrix csv file has not been processed yet")
-                return None
-            tfidf_matrix =  pd.read_csv(file)
-            return all_doc_list, tfidf_matrix
+            logging.info('Spacy File DOES NOT EXIST')
+            return None
+        else:
+            all_doc_list = pickle.load(open(file, 'rb'))
+    
+    if not compute_again:
+        file = join(dirname(__file__),'data/{}/tfidf.pkl'.format(keywords))
+        if not isfile(file):
+            logging.info("tfidf_matrix computation started....")
+        else:
+            logging.info("tfidf already there and loaded")
+            tfidf_matrix =  pickle.load(open(file, 'rb'))
+            return tfidf_matrix
     logging.info('Keys of the Story Dictionary:{}\n'.format(all_doc_list[0].keys()))
 
     if no_of_doc:
@@ -106,8 +106,11 @@ def run_TFIDF(keywords, level='articles', no_of_doc=None, all_doc_list=None, com
         doc=[]
         for v in all_doc_list:
             doc += [i for i in v['spacy_cleaned_para']]
-        logging.info("Number of paragraphs in first {} articles : {}".format(no_of_doc, len(doc)))
-    
+        logging.info("Number of paragraphs in first {} articles : {}".format(len(all_doc_list), len(doc)))
+    # for i in doc:
+    #     if i == {}:
+    #         flag = doc.index(i)
+    #         logging.info('doc index empty = {}'.format(flag))
     wordSet = sorted(set().union(*doc))
     
     doc_set_all = word_count(doc)
@@ -117,21 +120,13 @@ def run_TFIDF(keywords, level='articles', no_of_doc=None, all_doc_list=None, com
     
     wordSet = sorted(set().union(new_wordSet))
     tfidf_matrix = computeTFIDF_matrix(wordSet, tfidf, len(doc))
-    # for i in range(len(tfidf_matrix)):
-    #     all_doc_list[i]['tfidf'] = tfidf_matrix[i]
-    df = pd.DataFrame(tfidf_matrix)
-    if filesave:
-        file = join(dirname(__file__),'data/{}/spacy_tf.pkl'.format(keywords))
-        pickle.dump(all_doc_list, open(file, 'wb'))
-        file = join(dirname(__file__),'data/{}/tfidf.csv'.format(keywords))
-        
-        df.to_csv(file)
-        logging.debug(' FILE SAVED FOR TFIDF\n')
 
-    return all_doc_list, df
+
+
+    return tfidf_matrix
 
 
 
 if __name__ == "__main__":
     keywords = input("Enter the keywords :  ")
-    all_doc_list = run_TFIDF(keywords)
+    tfidf_matrix = run_TFIDF(keywords)

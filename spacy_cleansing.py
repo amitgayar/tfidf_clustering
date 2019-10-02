@@ -31,8 +31,8 @@ def spacy_cleansing(doc):
             lemmatized.append(token.lemma_)
         else:
             rejected.append(token.lemma_)
-    logging.info("Accepted Tokens: {}\n".format(str(lemmatized)))
-    logging.info("Rejected Tokens: {}\n".format(str(rejected)))
+    logging.info("Accepted Tokens: {}\n".format(str(sorted(set().union(lemmatized)))))
+    logging.info("Rejected Tokens: {}\n".format(str(sorted(set().union(rejected)))))
     return (lemmatized, rejected)
 
 
@@ -70,7 +70,7 @@ def art_to_para(article,threshold=200):
             return para_thresholding(i+1,clustered_para)
     return para_thresholding()
 
-def run_spacy_cleansing(keywords, compute_again=False, filesave=True):
+def run_spacy_cleansing(keywords, compute_again=False):
     mypath = join(os.path.dirname(__file__), 'data/{}/news/'.format(keywords))
     if not isdir(mypath):
         logging.info("Story [{}] News files don't exist yet")
@@ -82,7 +82,7 @@ def run_spacy_cleansing(keywords, compute_again=False, filesave=True):
     if not news_text_file:
         logging.info("NO SUCH FILES FOUND")
         return None
-    file = join(os.path.dirname(__file__), 'data/{}/spacy_tf.pkl'.format(keywords))
+    file = join(os.path.dirname(__file__), 'data/{}/spacy.pkl'.format(keywords))
     
     if isfile(file):
         if not compute_again:
@@ -100,17 +100,7 @@ def run_spacy_cleansing(keywords, compute_again=False, filesave=True):
         for t in store_dict['para_text']:
             store_dict['spacy_cleaned_para'].append(spacy_cleansing(t)[0])        
         store_file.append(store_dict.copy())
-        # logging.info('link: {} processed '.format(news_text_file.index(f)))
-        
-        # string = "\r{}{} {}%" 
-        # i = math.floor((news_text_file.index(f)+1)/len(news_text_file)*100)
-        # sys.stdout.write(string.format("#"*i, "."*(100-i), i))
 
-
-    if filesave:    
-        file = 'data/{}/spacy_tf.pkl'.format(keywords)
-        pickle.dump(store_file,open(file,'wb'))
-        logging.info('\nFILE SAVED FOR SPACY_CLEANED')
 
     return store_file
 
