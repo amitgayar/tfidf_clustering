@@ -2,7 +2,9 @@
 
 
 **Prerequisites:**
-Set Up Tor with HashedPassword = 'linux' (your choice)
+
+Set Up Tor with HashedPassword = 'linux' (your choice).
+
 The perfect [guide](https://gist.github.com/DusanMadar/8d11026b7ce0bce6a67f7dd87b999f6b) to set up Tor along with Privoxy.
 	
 ### Installation guide
